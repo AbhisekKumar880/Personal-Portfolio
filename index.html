@@ -29,22 +29,12 @@
         }
       }
 
-      /* The blinking cursor caret */
-      /* @keyframes blink-caret { */
-        /* from, */
-        /* to { */
-          /* border-color: transparent; */
-        /* } */
-        /* 50% { */
-          /* border-color: white; */
-        /* } */
-      /* } */
     </style>
 
   </head>
   <!-- Home -->
   <body class="bg-dark">
-    <nav class="navbar navbar-expand-lg navbar-dark text-light bg-dark">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark text-light bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#" style="font-family: cursive;  font-weight: bold; color: #fbfafa;">A B H I S E K</a>
         <span>
@@ -62,26 +52,28 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item-end">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link link-offset-1-hover" href="#">About</a>
+                <a class="nav-link link-offset-1-hover" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Academic</a>
+                <a class="nav-link" href="#academic">Academic</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Skill</a>
+                <a class="nav-link" href="#skill">Skill</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Project</a>
+                <a class="nav-link" href="#project">Project</a>
               </li>
             </ul>
           </div>
         </span>
       </div>
     </nav>
-    <div class="container-fluid animated-name">
+    <div class="container-fluid animated-name" id="home">
+      <br>
+      <br>
       <div class="row justify-content-center">
         <div class="col-md-3 m-3">
           <img
@@ -124,7 +116,9 @@
     <br>
 
     <!-- About -->
-    <div class="container-fluid mb-3 m-xxl-5">
+    <div class="container-fluid mb-3 m-xxl-5" id="about">
+      <br>
+      <br>
       <div class="row g-4 justify-content-center">
         <div class="col-md-3">
           <div class="card-body ">
@@ -152,7 +146,10 @@
     <br>
 
     <!-- Academic -->
-    <div class="container-fluid mb-5 mx-auto w-75">
+    <div class="container-fluid mb-5 mx-auto w-75" id="academic">
+      <br>
+      <br>
+      <br>
       <h4 class="card-title text-light fs-2" style="text-align: center;font-family:sans-serif ;">My Academic Records</h4>
       <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 me-xxl-5 row-justify-content-center">
         <div class="col">
@@ -263,7 +260,9 @@
     </div>
 
     <!-- Skill -->
-    <div class="container-fluid mb-5 mx-auto w-75 ">
+    <div class="container-fluid mb-5 mx-auto w-75 " id="skill">
+      <br>
+      <br>
       <h4 class="card-title text-light fs-2" style="text-align: center; font-family: sans-serif;">Technical Skills</h4>
       <table class="table mt-3  table-dark">
         <tr class="tr-td-1">
@@ -326,7 +325,9 @@
     </div>
 
     <!-- Project -->
-    <div class="container-fluid mb-5 mx-auto w-75">
+    <div class="container-fluid mb-5 mx-auto w-75" id="project">
+      <br>
+      <br>
       <h4 class="card-title text-light fs-2" style="text-align: center; font-family: sans-serif;">My Projects</h4>
       <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 me-xxl-5  row-justify-content-center">
         <div class="col">
