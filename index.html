@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="bootstrap.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.19.0/font/bootstrap-icons.css" rel="stylesheet">
     <style>
+      .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
       .navbar-nav .nav-link:hover {
         color: #17a2b8;
       }
@@ -19,7 +24,7 @@
         animation: typing 7s steps(30) infinite;
       }
 
-      /* The typing effect */
+      
       @keyframes typing {
         from {
           width: 0;
@@ -32,8 +37,8 @@
     </style>
 
   </head>
-  <!-- Home -->
   <body class="bg-dark">
+    <!-- Nav -->
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark text-light bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#" style="font-family: cursive;  font-weight: bold; color: #fbfafa;">A B H I S E K</a>
@@ -58,24 +63,27 @@
                 <a class="nav-link link-offset-1-hover" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#academic">Academic</a>
+                <a class="nav-link link-offset-1-hover" href="#academic">Academic</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#skill">Skill</a>
+                <a class="nav-link link-offset-1-hover" href="#skill">Skill</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#project">Project</a>
+                <a class="nav-link link-offset-1-hover" href="#project">Project</a>
               </li>
             </ul>
           </div>
         </span>
       </div>
     </nav>
+
+    <!-- Home -->
     <div class="container-fluid animated-name" id="home">
       <br>
       <br>
+      <br>
       <div class="row justify-content-center">
-        <div class="col-md-3 m-3">
+        <div class="col-md-3 m-3 flex">
           <img
             src="mypic1.jpeg"
             class="img-fluid rounded-circle w-50 h-55 border border-3 border-info"
@@ -108,7 +116,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github text-light" viewBox="0 0 16 16">
               <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
             </svg>
-            <a href="https://github.com/AbhisekKumar880" class="small text-info text-decoration-none">github,com/abhisek</a>
+            <a href="https://github.com/AbhisekKumar880" class="small text-info text-decoration-none">github.com/abhisek</a>
           </div>
         </div>
       </div>
@@ -116,7 +124,7 @@
     <br>
 
     <!-- About -->
-    <div class="container-fluid mb-3 m-xxl-5" id="about">
+    <div class="container-fluid mb-5 mx-auto w-100" id="about">
       <br>
       <br>
       <div class="row g-4 justify-content-center">
@@ -139,7 +147,7 @@
           </div>
         </div>
         <div class="col-md-3 m-6">
-          <img src="mypic2.jpg" class="img-fluid" alt="...">
+          <img src="mypic2.jpg" class="img-fluid d-none d-md-block" alt="...">
         </div>
       </div>
     </div>
@@ -162,19 +170,16 @@
               </svg>
               Silicon Institute Of Technology
               <br>
-              <!-- <p class="small"></p> -->
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil text-dark" viewBox="0 0 16 16">
                 <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
               </svg>
               8.3(CGPA)
               <br>
-              <!-- <p class="small"></p> -->
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check text-dark" viewBox="0 0 16 16">
                 <path d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
                 <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
               </svg>
               2022-2024
-              <!-- <p class="small"></p> -->
             </div>
           </div>
         </div>
@@ -188,19 +193,16 @@
               </svg>
               St.Xaviers Degree College
               <br>
-              <!-- <p class="small"></p> -->
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil text-dark" viewBox="0 0 16 16">
                 <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
               </svg>
               8.5(CGPA)
               <br>
-              <!-- <p class="small"></p> -->
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check text-dark" viewBox="0 0 16 16">
                 <path d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
                 <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
               </svg>
               2019-2022
-              <!-- <p class="small"></p> -->
             </div>
           </div>
         </div>
@@ -214,19 +216,16 @@
               </svg>
               Samanta Chandra Sekhar Junior College
               <br>
-              <!-- <p class="small"></p> -->
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil text-dark" viewBox="0 0 16 16">
                 <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
               </svg>
               60%
               <br>
-              <!-- <p class="small"></p> -->
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check text-dark" viewBox="0 0 16 16">
                 <path d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
                 <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
               </svg>
               2017-2019
-              <!-- <p class="small">2017-2019</p> -->
             </div>
           </div>
         </div>
@@ -239,20 +238,17 @@
                 <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
               </svg>
               Puri Zila School
-              <!-- <p class="small"></p> -->
               <br>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil text-dark" viewBox="0 0 16 16">
                 <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
               </svg>
               83.5%
-              <!-- <p class="small">83.5%</p> -->
               <br>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check text-dark" viewBox="0 0 16 16">
                 <path d="M10.854 7.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
                 <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
               </svg>
                2014-2017
-              <!-- <p class="small">2014-2017</p> -->
             </div>
           </div>
         </div>
@@ -268,8 +264,8 @@
         <tr class="tr-td-1">
           <td>
             C<br>
-            <div class="progress" role="progressbar" aria-label="Info Animated striped example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 70%">70%</div>
+            <div class="progress" role="progressbar" aria-label="Info Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 75%">75%</div>
             </div>
           </td>
           <td>
@@ -288,8 +284,8 @@
           </td>
           <td>
             CSS<br>
-            <div class="progress" role="progressbar" aria-label="Info Animated striped example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 70%">70%</div>
+            <div class="progress" role="progressbar" aria-label="Info Animated striped example" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 65%">65%</div>
             </div>
           </td>
         </tr>
@@ -302,22 +298,22 @@
           </td>
           <td>
             Javascript
-            <div class="progress" role="progressbar" aria-label="Info Animated striped example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 60%">60%</div>
+            <div class="progress" role="progressbar" aria-label="Info Animated striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 50%">50%</div>
             </div>
           </td>
         </tr>
         <tr class="tr-td-1">
           <td>
             PHP
-            <div class="progress" role="progressbar" aria-label="Info Animated striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 50%">50%</div>
+            <div class="progress" role="progressbar" aria-label="Info Animated striped example" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 40%">40%</div>
             </div>
           </td>
           <td>
             Bootstrap
-            <div class="progress" role="progressbar" aria-label="Info Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 75%">75%</div>
+            <div class="progress" role="progressbar" aria-label="Info Animated striped example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 60%">60%</div>
             </div>
           </td>
         </tr>
@@ -382,12 +378,9 @@
     </script>
     <script>
         function openPdf() {
-    // Replace 'your_pdf_file.pdf' with the actual file path or URL of your PDF
-    var pdfPath = 'Resume-Formal-updated.pdf';
-    
-    // Open the PDF in a new tab or window
-    window.open(pdfPath, '_blank');
-}
+        var pdfPath = 'Resume-Formal-updated.pdf';
+        window.open(pdfPath, '_blank');
+        }
     </script>
   </body>
 </html>
